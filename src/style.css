@@ -5,14 +5,7 @@
 }
 
 body {
-  margin: 60px auto;
-}
-
-h1,
-h2,
-h3 {
-  text-align: center;
-  margin: 0;
+  margin: 100px 0;
 }
 
 h1 {
@@ -96,7 +89,7 @@ a:hover.about-link {
   text-decoration: underline;
 }
 
-.app-button {
+.primary-button {
   background: var(--primary-color);
   border-radius: 4px;
   padding: 20px 15px;
@@ -112,4 +105,33 @@ a:hover.about-link {
 
 a:hover.app-button {
   color: #e1d9f7;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .img-main {
+    display: none;
+  }
+
+  .section-title {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .home-row div {
+    margin-bottom: 5px;
+  }
+
+  .mobile-button {
+    display: block;
+    margin-bottom: 0 20px;
+    text-align: center;
+  }
 }

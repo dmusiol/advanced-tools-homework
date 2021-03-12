@@ -50,7 +50,7 @@ p {
   color: white;
 }
 a:hover.contact-link {
-  color: #e1d9f7;
+  color: rgb(253, 216, 242);
 }
 
 .about-link {
@@ -58,7 +58,8 @@ a:hover.contact-link {
   border: 1px solid var(--primary-color);
 }
 a:hover.about-link {
-  color: rgb(55, 46, 245);
+  text-decoration: underline;
+  color: #544bfa;
 }
 
 .homepage-link {
@@ -103,8 +104,8 @@ a:hover.about-link {
   padding: 0 10px;
 }
 
-a:hover.app-button {
-  color: #e1d9f7;
+.primary-button:hover {
+  color: rgb(253, 216, 242);
 }
 
 @media (max-width: 767px) {

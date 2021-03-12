@@ -119,8 +119,13 @@ a:hover.about-link {
   }
 
   h3 {
-    font-size: 16px;
+    font-size: 18px;
     padding: 0 5px;
+  }
+
+  p {
+    font-size: 16px;
+    padding: 5px;
   }
 
   .img-main {
